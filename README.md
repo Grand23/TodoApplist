@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+# Running the app
+when the application is running it will display a sign up form when the page link is (http://localhost:4200/signup) where a new user can sign up for their access to the app.the log in page will be used by people who have signed up and need to gain access (http://localhost:4200/login).
+
+## Project Structure
+the project is coded in a way that when it is running and you save your list it will save it in a note pad application that you can access on your computer and it will display a notification of the file to be downloaded.

@@ -1,0 +1,105 @@
+s/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Login Container Styles */
+  
+  .login-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Login Left Section Styles */
+  
+  .login-left {
+    flex-basis: 60%;
+    padding: 20px;
+  }
+  
+  .login-left h2 {
+    margin-top: 0;
+  }
+  
+  .login-left p {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-google {
+    background-color: #4285f4;
+    color: #fff;
+  }
+  
+  .btn-apple {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .btn-signin {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  /* Login Right Section Styles */
+  
+  .login-right {
+    flex-basis: 40%;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-left: 1px solid #ddd;
+  }
+  
+  .login-info {
+    padding: 20px;
+  }
+  
+  .login-info h3 {
+    margin-top: 0;
+  }
+  
+  .login-info p {
+    margin-bottom: 20px;
+  }
+  
+  .login-info img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 600px) {
+    .login-container {
+      flex-direction: column;
+    }
+    .login-left {
+      flex-basis: 100%;
+    }
+    .login-right {
+      flex-basis: 100%;
+      border-left: none;
+    }
+  }
