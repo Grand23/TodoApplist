@@ -1,33 +1,30 @@
-# AngularAppTODOList
+<h1 align="center">Todo List App </h1> <br>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
+### Table of Content
 
-## Development server
+- [Introduction](#introduction)
+- [Features](#features)
+- [Screenshorts](#screenshorts)
+- [How to use](#how-to-use)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Introduction
 
-## Code scaffolding
+This is a Todo app list with basic functionality and was built using angular 17.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Features
 
-## Build
+*Login functionality
+*Signup functionality
+*Save button
+*View activity
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Screenshorts
 
-## Running unit tests
+![SignUp screen](src/app/assets/Screenshot%20(14).png)
+![app screen](src/app/assets/Screenshot%20(10).png)
+![Saved screen](src/app/assets/Screenshot%20(12).png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### How the App works
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-
-# Running the app
-when the application is running it will display a sign up form when the page link is (http://localhost:4200/signup) where a new user can sign up for their access to the app.the log in page will be used by people who have signed up and need to gain access (http://localhost:4200/login).
-
-## Project Structure
-the project is coded in a way that when it is running and you save your list it will save it in a note pad application that you can access on your computer and it will display a notification of the file to be downloaded.
+When the application is running it will display the picture of the app screen and you will type your data on the "type your data" input field whereby when the button save is clicked it will save the data to a text file which you can access on your computer device under the downloads folder.
+The link to the site is (http://localhost:4200/).

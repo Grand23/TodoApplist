@@ -2,7 +2,7 @@ import { DatePipe } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { PageTitleComponent } from '../../page-title/page-title.component';
-import { TaskListComponent } from '../../task-list/task-list.component';
+import { TaskListComponent } from '../../task-list/task-list.component';  
 import { HttpService } from '../../../services/http.service';
 import { StateService } from '../../../services/state.service';
 
